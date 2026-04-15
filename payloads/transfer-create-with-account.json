@@ -1,0 +1,14 @@
+{
+  "amount": 50000,
+  "recipientId": 916,
+  "bankAccount": {
+    "bankCode": "001",
+    "agencyNumber": "1233",
+    "accountNumber": "12345",
+    "accountDigit": "6",
+    "type": "conta_corrente",
+    "legalName": "Destinatário Teste",
+    "documentNumber": "60572883000136",
+    "documentType": "cnpj"
+  }
+}

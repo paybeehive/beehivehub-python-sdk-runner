@@ -1,0 +1,12 @@
+{
+  "invoiceDescriptor": "Beehive Hub",
+  "details": {
+    "averageRevenue": 10000.0,
+    "averageTicket": 100.50,
+    "physicalProducts": true,
+    "productsDescription": "Produtos físicos",
+    "siteUrl": "https://www.meusite.com.br",
+    "phone": "11999999999",
+    "email": "contato@meusite.com.br"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "link atualizado",
+  "amount": 2000,
+  "settings": {
+    "defaultPaymentMethod": "pix",
+    "requestAddress": false,
+    "requestPhone": false,
+    "traceable": true,
+    "boleto": {
+      "enabled": false,
+      "expiresInDays": 0
+    },
+    "pix": {
+      "enabled": true,
+      "expiresInDays": 30
+    },
+    "card": {
+      "enabled": true,
+      "freeInstallments": 1,
+      "maxInstallments": 6
+    }
+  }
+}
