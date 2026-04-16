@@ -1,18 +1,17 @@
 name: Auto Assign
-
 on:
   issues:
     types: [opened]
   pull_request:
-    types: [opened]
-
+    types: [opened, reopened]
 jobs:
-  auto-assign:
+  run:
     runs-on: ubuntu-latest
     permissions:
       issues: write
       pull-requests: write
     steps:
-      - uses: pozil/auto-assign-issue@v2
+      - name: Auto-assign to author
+        uses: toshimaru/auto-author-assign@v2.1.1
         with:
-          assignees: ${{ github.repository_owner }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
