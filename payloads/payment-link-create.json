@@ -1,0 +1,23 @@
+{
+  "title": "novo link",
+  "amount": 1000,
+  "settings": {
+    "defaultPaymentMethod": "credit_card",
+    "requestAddress": true,
+    "requestPhone": true,
+    "traceable": true,
+    "boleto": {
+      "enabled": true,
+      "expiresInDays": 0
+    },
+    "pix": {
+      "enabled": false,
+      "expiresInDays": 0
+    },
+    "card": {
+      "enabled": false,
+      "freeInstallments": 1,
+      "maxInstallments": 12
+    }
+  }
+}

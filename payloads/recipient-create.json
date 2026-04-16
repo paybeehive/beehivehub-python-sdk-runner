@@ -1,0 +1,22 @@
+{
+  "legalName": "Recebedor Teste Ltda",
+  "document": {
+    "type": "cnpj",
+    "number": "58593776000142"
+  },
+  "transferSettings": {
+    "transferEnabled": true,
+    "automaticAnticipationEnabled": false,
+    "anticipatableVolumePercentage": 100
+  },
+  "bankAccount": {
+    "bankCode": "341",
+    "agencyNumber": "1234",
+    "accountNumber": "12345",
+    "accountDigit": "6",
+    "type": "conta_corrente",
+    "legalName": "Recebedor Teste Ltda",
+    "documentNumber": "58593776000142",
+    "documentType": "cnpj"
+  }
+}

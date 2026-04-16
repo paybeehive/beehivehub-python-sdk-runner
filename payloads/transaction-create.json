@@ -1,0 +1,37 @@
+{
+  "amount": 10000,
+  "paymentMethod": "pix",
+  "customer": {
+    "name": "João Silva",
+    "email": "joao.test@example.com",
+    "document": {
+      "type": "cpf",
+      "number": "00000000191"
+    },
+    "phone": "11999999999"
+  },
+  "shipping": {
+    "fee": 1000,
+    "address": {
+      "street": "Rua Exemplo",
+      "streetNumber": "123",
+      "neighborhood": "Centro",
+      "zipCode": "01234567",
+      "city": "São Paulo",
+      "state": "SP",
+      "country": "br"
+    }
+  },
+  "items": [
+    {
+      "title": "Produto Teste",
+      "unitPrice": 10000,
+      "quantity": 1,
+      "tangible": true
+    }
+  ],
+  "postbackUrl": "https://example.com/webhook",
+  "metadata": {
+    "orderId": "1234567890"
+  }
+}

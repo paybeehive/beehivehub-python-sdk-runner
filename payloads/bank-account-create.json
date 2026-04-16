@@ -1,0 +1,10 @@
+{
+  "bankCode": "341",
+  "agencyNumber": "9875",
+  "accountNumber": "54321",
+  "accountDigit": "0",
+  "type": "conta_poupanca",
+  "legalName": "Empresa Teste Ltda",
+  "documentNumber": "60572883000136",
+  "documentType": "cnpj"
+}
