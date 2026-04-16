@@ -1,6 +1,6 @@
 # Beehive Hub Python SDK Runner
 
-🚀 Interactive CLI tool to consume and validate the [beehivehub-python-sdk](https://github.com/paybeehive/beehivehub-python-sdk).
+🚀 Interactive CLI tool to consume and validate the [beehivehub-python-sdk](https://pypi.org/project/beehivehub-python-sdk/).
 
 ## 📋 About the Project
 
@@ -228,14 +228,14 @@ pytest
 - **Python 3.10+** — Language
 - **questionary** — Interactive terminal menu
 - **python-dotenv** — Credential management
-- **beehivehub-python-sdk** — Official SDK via GitHub
+- **beehivehub-python-sdk** — Official SDK via PyPI
 
 ## 🔧 Update the SDK
 
-The runner uses the SDK installed directly from GitHub. To update to the latest version:
+The runner uses the SDK installed from PyPI. To update to the latest version:
 
 ```bash
-pip install --upgrade "beehivehub-python-sdk @ git+https://github.com/paybeehive/beehivehub-python-sdk.git@first-version"
+pip install --upgrade beehivehub-python-sdk
 ```
 
 Or reinstall from scratch:
@@ -336,7 +336,7 @@ If you encounter errors:
 - 📧 Email: support@paybeehive.com.br
 - 📚 Docs: https://docs.beehivehub.io/
 - 🐛 Issues: https://github.com/paybeehive/beehivehub-python-sdk/issues
-- 📦 SDK: https://github.com/paybeehive/beehivehub-python-sdk
+- 📦 SDK: https://pypi.org/project/beehivehub-python-sdk/
 
 ---
 
